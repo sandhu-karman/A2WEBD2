@@ -1,0 +1,122 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+  
+.invoice {
+    border: #000 solid 2px;
+    padding: 5px;
+    width: 660px;
+    margin: 0px auto;
+    color: #000;
+    border-radius: 10px;
+    padding-bottom: 25px;
+}
+  
+h2 {
+    margin-top: 0;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+  
+h3 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #666;
+    margin-bottom: 10px;
+}
+  
+table {
+    font-size: 14px;
+    border: 2px solid #000;
+    width: 580px;
+    margin: 0px auto 1em auto;
+    border-radius: 10px;
+}
+  
+th, td {
+    border: 1px solid #000;
+    padding: 10px;
+    text-align: left;
+}
+  
+th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+  
+td {
+    vertical-align: top;
+}
+  
+tfoot td {
+    font-weight: bold;
+    font-size: 18px;
+}
+  
+tfoot td:last-child {
+    text-align: right;
+}
+  
+.address-information {
+    margin-bottom: 20px;
+    border: 2px solid #000;
+    border-radius: 10px;
+    padding: 10px;
+}
+  
+.address-information.line {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+  
+.address-information.line div {
+    padding: 5px;
+}
+  
+.address-information.line div.address {
+    width: 50%; /* adjust the width as needed */
+}
+  
+.address-information.line div.city {
+    width: 50%; /* adjust the width as needed */
+    padding-left: 10px; /* add some padding to separate the address and city */
+}
+
+.order-information {
+    margin-bottom: 20px;
+    border: 2px solid #000;
+    border-radius: 10px;
+    padding: 10px;
+    width: 100%; /* Make the box cover the entire line */
+}
+  
+.order-summary th {
+    width: 20%;
+}
+  
+.order-summary td {
+    padding-bottom: 10px;
+    border: 1px solid #000;
+    border-radius: 10px;
+}
+  
+.order-summary td:last-child {
+    padding-bottom: 0;
+}
+  
+.total-cost {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+}
+  
+p {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #666;
+}
